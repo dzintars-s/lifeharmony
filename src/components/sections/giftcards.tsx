@@ -33,7 +33,7 @@ export function GiftCards() {
         </motion.div>
 
         {/* Gift Card Mockup */}
-        <div className="mb-16 relative">
+        <div className="mb-16 relative overflow-hidden">
           {/* Glowing background effect */}
           <motion.div
             animate={{
@@ -45,7 +45,7 @@ export function GiftCards() {
               duration: 4,
               ease: "easeInOut"
             }}
-            className="absolute -inset-20 bg-gradient-to-br from-gold/40 to-champagne/20 rounded-full blur-3xl pointer-events-none -z-10"
+            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-br from-gold/40 to-champagne/20 rounded-full blur-3xl pointer-events-none -z-10"
           />
 
           <motion.div

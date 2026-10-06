@@ -123,9 +123,22 @@ export function Navigation() {
                 </svg>
               </div>
               {/* Brand Name with Gradient */}
-              <div className="hidden sm:block">
+              <div className="hidden sm:flex flex-col">
                 <span
                   className="font-serif text-xl font-bold tracking-wide bg-gradient-to-r from-forest to-gold bg-clip-text text-transparent"
+                  style={{
+                    backgroundImage: isScrolled
+                      ? "linear-gradient(to right, #2D4A3E, #B8A582)"
+                      : "linear-gradient(to right, #FDFCF9, #D4C4A8)",
+                  }}
+                >
+                  LifeHarmony
+                </span>
+              </div>
+              {/* Mobile Brand Name */}
+              <div className="sm:hidden flex flex-col">
+                <span
+                  className="font-serif text-lg font-bold tracking-wide bg-gradient-to-r from-forest to-gold bg-clip-text text-transparent"
                   style={{
                     backgroundImage: isScrolled
                       ? "linear-gradient(to right, #2D4A3E, #B8A582)"

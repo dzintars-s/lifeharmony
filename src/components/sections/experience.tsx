@@ -40,7 +40,7 @@ export function Experience() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={isInView ? { opacity: 1, scale: 1 } : {}}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="relative aspect-[16/9] lg:aspect-[21/9] rounded-xl overflow-hidden bg-forest"
+          className="relative w-full aspect-video lg:aspect-[21/9] rounded-xl overflow-hidden bg-forest"
         >
           <video
             autoPlay
