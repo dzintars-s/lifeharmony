@@ -143,7 +143,7 @@ export function Pricing() {
                 <a
                   href={whatsappUrl}
                   className={cn(
-                    "flex items-center justify-center gap-2 py-2 px-3 rounded-full text-sm transition-all mt-auto block lg:hidden w-full",
+                    "flex items-center justify-center gap-2 py-2 px-2 rounded-full text-xs transition-all mt-auto lg:hidden w-full",
                     "bg-gold text-forest hover:bg-gold-light"
                   )}
                 >
@@ -162,9 +162,9 @@ export function Pricing() {
                 >
                   <a
                     href={whatsappUrl}
-                    className="flex items-center justify-center gap-2 mt-4 py-2 bg-gold text-forest rounded-full text-sm hover:bg-gold-light transition-colors w-full"
+                    className="flex items-center justify-center gap-2 mt-4 py-2 px-4 bg-gold text-forest rounded-full text-sm hover:bg-gold-light transition-colors w-full"
                   >
-                    {t.pricing.askPackages} <ArrowRight size={14} />
+                    {t.pricing.askPackages} <ArrowRight size={30} />
                   </a>
                 </motion.div>
               </motion.div>

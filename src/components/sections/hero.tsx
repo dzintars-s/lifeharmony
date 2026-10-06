@@ -47,7 +47,7 @@ export function Hero() {
           poster="/massage_back.jpg"
         >
           <source
-            src="/massage_back.mp4"
+            src="https://res.cloudinary.com/n21wqwss/video/upload/v1791303691/massage_back.mp4"
             type="video/mp4"
           />
         </video>

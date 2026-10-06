@@ -33,19 +33,19 @@ export function GiftCards() {
         </motion.div>
 
         {/* Gift Card Mockup */}
-        <div className="mb-16 relative overflow-hidden">
+        <div className="mb-12 relative">
           {/* Glowing background effect */}
           <motion.div
             animate={{
               scale: [1, 1.2, 1],
-              opacity: [0.5, 0.8, 0.5]
+              opacity: [0.5, 0.9, 0.5]
             }}
             transition={{
               repeat: Infinity,
               duration: 4,
               ease: "easeInOut"
             }}
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-br from-gold/40 to-champagne/20 rounded-full blur-3xl pointer-events-none -z-10"
+            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-br from-gold/40 to-champagne/20 rounded-full blur-3xl pointer-events-none"
           />
 
           <motion.div
@@ -63,7 +63,7 @@ export function GiftCards() {
             <div className="absolute inset-0 bg-gradient-to-br from-forest to-forest-dark" />
 
             {/* Card Pattern */}
-            <div className="absolute inset-0 opacity-10">
+            <div className="absolute inset-0 opacity-10 m-2">
               <div className="absolute inset-0" style={{
                 backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
               }} />
@@ -71,9 +71,9 @@ export function GiftCards() {
 
             {/* Glowing border effect with breathing animation */}
             <motion.div
-              animate={{ opacity: [0.3, 0.6, 0.3] }}
+              animate={{ opacity: [0.5, 1, 0.5] }}
               transition={{ repeat: Infinity, duration: 4 }}
-              className="absolute inset-0 rounded-xl border-2 border-gold/40 pointer-events-none"
+              className="absolute inset-0 rounded-xl border-3 border-gold pointer-events-none"
             />
 
             {/* Card Content */}

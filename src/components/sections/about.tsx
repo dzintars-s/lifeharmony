@@ -131,11 +131,11 @@ export function About() {
             />
 
             {/* Main Image Container */}
-            <div className="relative aspect-[4/5] lg:aspect-[3/4] overflow-hidden rounded-xl shadow-2xl bg-gradient-to-br from-forest/40 to-forest-dark/40">
+            <div className="relative aspect-[4/5] lg:aspect-[3/4] rounded-xl overflow-hidden shadow-2xl bg-gradient-to-br from-forest/40 to-forest-dark/40">
               <img
                 src="/raivis.png"
                 alt="Raivis - Professional massage therapist"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover overflow-visible -left-12 lg:-left-18 absolute"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-forest/50 via-forest/20 to-transparent" />
 
