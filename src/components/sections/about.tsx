@@ -135,7 +135,7 @@ export function About() {
               <img
                 src="/raivis.png"
                 alt="Raivis - Professional massage therapist"
-                className="w-full h-full object-cover overflow-visible -left-12 lg:-left-18 absolute"
+                className="w-full h-full object-cover overflow-visible -left-10 lg:-left-18 absolute"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-forest/50 via-forest/20 to-transparent" />
 

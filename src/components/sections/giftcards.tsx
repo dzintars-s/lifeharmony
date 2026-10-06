@@ -13,7 +13,7 @@ export function GiftCards() {
   const { t } = useLanguage();
 
   return (
-    <section id="giftcards" className="relative py-24 lg:py-32 bg-forest text-text-inverse">
+    <section id="giftcards" className="relative py-24 lg:py-32 bg-forest text-text-inverse overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
