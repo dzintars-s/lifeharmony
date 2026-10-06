@@ -144,66 +144,9 @@ export function About() {
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={isInView ? { opacity: 1, scale: 1 } : {}}
                 transition={{ duration: 0.8, delay: 0.3 }}
-                className="absolute bottom-6 left-6 bg-white/95 backdrop-blur-sm rounded-full p-1 shadow-lg"
+                className="absolute bottom-6 left-6 bg-forest/95 backdrop-blur-sm rounded-full p-1 shadow-lg"
               >
-                <svg
-                  viewBox="0 0 200 200"
-                  className="w-12 h-12"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <defs>
-                    <linearGradient id="forestGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" stopColor="#2D4A3E" stopOpacity="1" />
-                      <stop offset="100%" stopColor="#1A3A2A" stopOpacity="1" />
-                    </linearGradient>
-                    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" stopColor="#D4C4A8" stopOpacity="1" />
-                      <stop offset="100%" stopColor="#B8A582" stopOpacity="1" />
-                    </linearGradient>
-                    <linearGradient id="champagneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" stopColor="#E8DFD0" stopOpacity="1" />
-                      <stop offset="100%" stopColor="#D4C4A8" stopOpacity="1" />
-                    </linearGradient>
-                    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
-                      <stop offset="0%" stopColor="#D4C4A8" stopOpacity="0.4" />
-                      <stop offset="100%" stopColor="#B8A582" stopOpacity="0" />
-                    </radialGradient>
-                  </defs>
-
-                  <circle cx="100" cy="100" r="98" fill="url(#glowGradient)" opacity="0.5" />
-                  <circle cx="100" cy="100" r="95" fill="none" stroke="url(#goldGradient)" strokeWidth="2.5" opacity="0.9" />
-                  <circle cx="100" cy="100" r="90" fill="url(#forestGradient)" />
-                  <circle cx="100" cy="100" r="88" fill="none" stroke="url(#champagneGradient)" strokeWidth="1" opacity="0.4" />
-                  <circle cx="100" cy="100" r="80" fill="none" stroke="url(#champagneGradient)" strokeWidth="0.8" opacity="0.2" />
-
-                  <g id="petals">
-                    <path d="M 100 30 Q 85 50 82 70 Q 80 85 100 92 Q 120 85 118 70 Q 115 50 100 30" fill="url(#champagneGradient)" opacity="0.95" />
-                    <path d="M 100 30 Q 85 50 82 70 Q 80 85 100 92 Q 120 85 118 70 Q 115 50 100 30" fill="url(#champagneGradient)" opacity="0.9" transform="rotate(45 100 100)" />
-                    <path d="M 100 30 Q 85 50 82 70 Q 80 85 100 92 Q 120 85 118 70 Q 115 50 100 30" fill="url(#champagneGradient)" opacity="0.85" transform="rotate(90 100 100)" />
-                    <path d="M 100 30 Q 85 50 82 70 Q 80 85 100 92 Q 120 85 118 70 Q 115 50 100 30" fill="url(#champagneGradient)" opacity="0.8" transform="rotate(135 100 100)" />
-                    <path d="M 100 30 Q 85 50 82 70 Q 80 85 100 92 Q 120 85 118 70 Q 115 50 100 30" fill="url(#champagneGradient)" opacity="0.9" transform="rotate(180 100 100)" />
-                    <path d="M 100 30 Q 85 50 82 70 Q 80 85 100 92 Q 120 85 118 70 Q 115 50 100 30" fill="url(#champagneGradient)" opacity="0.85" transform="rotate(225 100 100)" />
-                    <path d="M 100 30 Q 85 50 82 70 Q 80 85 100 92 Q 120 85 118 70 Q 115 50 100 30" fill="url(#champagneGradient)" opacity="0.8" transform="rotate(270 100 100)" />
-                    <path d="M 100 30 Q 85 50 82 70 Q 80 85 100 92 Q 120 85 118 70 Q 115 50 100 30" fill="url(#champagneGradient)" opacity="0.9" transform="rotate(315 100 100)" />
-                  </g>
-
-                  <circle cx="100" cy="100" r="32" fill="rgba(26, 58, 42, 0.3)" />
-
-                  <g id="inner-petals">
-                    <path d="M 100 75 Q 92 82 90 90 Q 89 95 100 100 Q 111 95 110 90 Q 108 82 100 75" fill="url(#goldGradient)" opacity="0.95" />
-                    <path d="M 100 75 Q 92 82 90 90 Q 89 95 100 100 Q 111 95 110 90 Q 108 82 100 75" fill="url(#goldGradient)" opacity="0.9" transform="rotate(90 100 100)" />
-                    <path d="M 100 75 Q 92 82 90 90 Q 89 95 100 100 Q 111 95 110 90 Q 108 82 100 75" fill="url(#goldGradient)" opacity="0.85" transform="rotate(180 100 100)" />
-                    <path d="M 100 75 Q 92 82 90 90 Q 89 95 100 100 Q 111 95 110 90 Q 108 82 100 75" fill="url(#goldGradient)" opacity="0.9" transform="rotate(270 100 100)" />
-                  </g>
-
-                  <circle cx="100" cy="100" r="8" fill="url(#goldGradient)" opacity="0.95" />
-                  <circle cx="100" cy="100" r="6" fill="url(#champagneGradient)" opacity="0.8" />
-                  <ellipse cx="88" cy="88" rx="12" ry="12" fill="white" opacity="0.12" />
-                  <circle cx="100" cy="75" r="1.5" fill="url(#goldGradient)" opacity="0.6" />
-                  <circle cx="125" cy="100" r="1.5" fill="url(#goldGradient)" opacity="0.6" />
-                  <circle cx="100" cy="125" r="1.5" fill="url(#goldGradient)" opacity="0.6" />
-                  <circle cx="75" cy="100" r="1.5" fill="url(#goldGradient)" opacity="0.6" />
-                </svg>
+                <img src="/logo.svg" alt="LifeHarmony Logo" className="w-12 h-12 p-1 object-contain" />
               </motion.div>
             </div>
 

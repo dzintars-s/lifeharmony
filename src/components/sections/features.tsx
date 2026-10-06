@@ -53,7 +53,7 @@ export function Features() {
                   <motion.div
                     animate={{ scale: [0.95, 1, 0.95], y: [0, -2, 0] }}
                     transition={{ repeat: Infinity, duration: 4, delay: index * 0.2 }}
-                    className="zen-icon mb-5 group-hover:bg-gradient-to-br group-hover:from-forest group-hover:to-forest-dark group-hover:text-text-inverse"
+                    className="zen-icon mb-5 group-hover:bg-gradient-to-br group-hover:from-forest group-hover:to-forest-dark text-gold"
                   >
                     <IconComponent size={24} />
                   </motion.div>
