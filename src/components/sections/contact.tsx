@@ -2,12 +2,13 @@
 
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { Phone, MapPin, MessageSquare, Share2 } from "lucide-react";
+import { Phone, MapPin, MessageSquare, Share2, Mail } from "lucide-react";
 import { useLanguage } from "@/lib/language-context";
 
 const phoneNumber = "+358401851127";
 const whatsappUrl = "https://wa.me/358401851127";
 const facebookUrl = "https://www.facebook.com/lifeharmonyrk";
+const emailUrl = "mailto:lifeharmonyrk@gmail.com";
 const mapsUrl = "https://www.google.com/maps?q=Isolinnankatu+22+B+Pori+Finland";
 
 export function Contact() {
@@ -29,6 +30,12 @@ export function Contact() {
       action: `tel:${phoneNumber}`,
     },
     {
+      icon: Mail,
+      label: t.contact.email,
+      value: t.contact.emailValue,
+      action: emailUrl,
+    },
+    {
       icon: MessageSquare,
       label: t.contact.whatsapp,
       value: t.contact.whatsappValue,
@@ -39,7 +46,7 @@ export function Contact() {
       label: t.contact.facebook,
       value: t.contact.facebookValue,
       action: facebookUrl,
-    },
+    }
   ];
 
   return (
@@ -62,7 +69,7 @@ export function Contact() {
         </motion.div>
 
         {/* Contact Info */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {contactInfo.map((info, index) => (
             <motion.a
               key={info.label}

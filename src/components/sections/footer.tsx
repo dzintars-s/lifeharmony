@@ -1,11 +1,12 @@
 "use client";
 
-import { Share2, MessageSquare } from "lucide-react";
+import { Share2, MessageSquare, Mail } from "lucide-react";
 import { useLanguage } from "@/lib/language-context";
 
 const phoneNumber = "+358401851127";
 const whatsappUrl = "https://wa.me/358401851127";
 const facebookUrl = "https://www.facebook.com/lifeharmonyrk";
+const email = "lifeharmonyrk@gmail.com";
 
 export function Footer() {
   const { t } = useLanguage();
@@ -37,6 +38,12 @@ export function Footer() {
                 className="block text-champagne-light hover:text-gold transition-colors"
               >
                 {phoneNumber}
+              </a>
+              <a
+                href={`mailto:${email}`}
+                className="block text-champagne-light hover:text-gold transition-colors"
+              >
+                {email}
               </a>
             </div>
           </div>
@@ -112,6 +119,13 @@ export function Footer() {
               aria-label="Varaa aika WhatsAppissa"
             >
               <MessageSquare size={18} />
+            </a>
+            <a
+              href={`mailto:${email}`}
+              className="p-2 text-champagne-light hover:text-gold transition-colors"
+              aria-label="Sähköposti"
+            >
+              <Mail size={18} />
             </a>
           </div>
         </div>

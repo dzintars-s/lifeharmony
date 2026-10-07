@@ -106,6 +106,8 @@ export const translations = {
       addressValue: 'Isolinnankatu 22 B, 2. kerros, huone 212, 28100 Pori',
       whatsappValue: 'Varaa aika WhatsAppissa',
       facebookValue: 'LifeHarmony Facebookissa',
+      email: 'Sähköposti',
+      emailValue: 'lifeharmonyrk@gmail.com'
     },
     // Map
     map: {
@@ -232,6 +234,8 @@ export const translations = {
       addressValue: 'Isolinnankatu 22 B, 2nd floor, room 212, 28100 Pori',
       whatsappValue: 'Book via WhatsApp',
       facebookValue: 'LifeHarmony on Facebook',
+      email: 'Email',
+      emailValue: 'lifeharmonyrk@gmail.com'
     },
     // Map
     map: {
@@ -358,6 +362,8 @@ export const translations = {
       addressValue: 'Isolinnankatu 22 B, 2 этаж, комната 212, 28100 Порви',
       whatsappValue: 'Записаться через WhatsApp',
       facebookValue: 'LifeHarmony в Facebook',
+      email: 'Электронная почта',
+      emailValue: 'lifeharmonyrk@gmail.com'
     },
     // Map
     map: {
