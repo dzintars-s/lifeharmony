@@ -16,7 +16,7 @@ export const translations = {
     hero: {
       title: 'LifeHarmony',
       tagline: 'Hierontaa keholle ja mielelle',
-      subtitle: 'Rentoutumista. Hyvinvointia. Tasapainoa.',
+      subtitle: 'Rentoutumista. Hyvinvointia.',
       cta: 'VARAA AIKA',
       ctaWhatsapp: 'OTA YHTEYTTÄ WHATSAPPISSA',
       location: 'Pori · Isolinnankatu 22 B',
@@ -142,7 +142,7 @@ export const translations = {
     hero: {
       title: 'LifeHarmony',
       tagline: 'Massage for body and mind',
-      subtitle: 'Relaxation. Wellness. Balance.',
+      subtitle: 'Relaxation. Wellness.',
       cta: 'BOOK NOW',
       ctaWhatsapp: 'CONTACT VIA WHATSAPP',
       location: 'Pori · Isolinnankatu 22 B',
@@ -268,7 +268,7 @@ export const translations = {
     hero: {
       title: 'LifeHarmony',
       tagline: 'Массаж для тела и души',
-      subtitle: 'Расслабление. Благополучие. Баланс.',
+      subtitle: 'Расслабление. Благополучие.',
       cta: 'ЗАПИСАТЬСЯ',
       ctaWhatsapp: 'СВЯЗАТЬСЯ В WHATSAPP',
       location: 'Порви · Isolinnankatu 22 B',
