@@ -81,7 +81,7 @@ export const metadata: Metadata = {
       "Rauhallista ja henkilökohtaista hierontaa Porissa. LifeHarmony – hyvinvointia keholle ja mielelle.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image-2.jpg",
         width: 1200,
         height: 630,
         alt: "LifeHarmony – hieronta Pori",
@@ -94,7 +94,7 @@ export const metadata: Metadata = {
     title: "Hieronta Pori | LifeHarmony",
     description:
       "Rauhallista ja henkilökohtaista hierontaa Porissa.",
-    images: ["/og-image.jpg"],
+    images: ["/og-image-2.jpg"],
   },
 
   icons: {
