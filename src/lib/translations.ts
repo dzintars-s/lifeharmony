@@ -30,6 +30,13 @@ export const translations = {
         'Rauhallisessa ympäristössä, rentouttavan musiikin säestyksellä ja ammattilaisen käsillä jokainen hierontasessio muuttuu uudelleen herätyksen hetkeksi. Raivisin tavoitteena on antaa sinulle ei pelkästään kehollista lievitystä, vaan kokonaisvaltaista hyvinvointikokemusta.',
       ],
       quote: 'Sinun hyvinvointisi on minulle tärkeää.',
+      therapistLabel: 'Ammattilainen hieronnassa',
+      subtitleLabel: 'Holistisen hyvinvoinnin asiantuntija',
+      statementLabel: 'Henkilökohtainen lausunto',
+      stats: [
+        { label: 'Vuoden kokemus', value: '10+' },
+        { label: 'Tyytyväiset asiakkaat', value: '500+' },
+      ],
     },
     // Features
     features: {
@@ -158,6 +165,13 @@ export const translations = {
         'In a peaceful environment, with soothing music and professional hands, each massage session becomes a moment of renewal. Raivis\'s goal is to give you not just physical relief, but a complete wellness experience.',
       ],
       quote: 'Your well-being matters to me.',
+      therapistLabel: 'Professional Therapist',
+      subtitleLabel: 'Expert in holistic wellness',
+      statementLabel: 'Personal Statement',
+      stats: [
+        { label: 'Years Experience', value: '10+' },
+        { label: 'Happy Clients', value: '500+' },
+      ],
     },
     // Features
     features: {
@@ -286,6 +300,13 @@ export const translations = {
         'В спокойной обстановке, под сопровождение расслабляющей музыки и с профессиональными руками каждый сеанс массажа становится моментом возрождения. Цель Райвиса — дать вам не просто физическое облегчение, а полноценный опыт благополучия.',
       ],
       quote: 'Ваше благополучие важно для меня.',
+      therapistLabel: 'Профессиональный терапевт',
+      subtitleLabel: 'Эксперт в целостном благополучии',
+      statementLabel: 'Личное заявление',
+      stats: [
+        { label: 'Годы опыта', value: '10+' },
+        { label: 'Довольных клиентов', value: '500+' },
+      ],
     },
     // Features
     features: {

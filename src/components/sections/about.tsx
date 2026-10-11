@@ -179,7 +179,7 @@ export function About() {
                 <Award size={24} className="text-gold" />
               </motion.div>
               <span className="text-sm font-semibold text-gold tracking-wider uppercase">
-                Professional Therapist
+                {t.about.therapistLabel}
               </span>
             </motion.div>
 
@@ -202,8 +202,8 @@ export function About() {
               >
                 <Leaf size={16} className="text-champagne" />
               </motion.div>
-              <p className="text-champagne-light font-medium">
-                Expert in holistic wellness
+              <p className="text-champagne-light font-medium pt-2">
+                {t.about.subtitleLabel}
               </p>
             </motion.div>
 
@@ -235,7 +235,7 @@ export function About() {
                 className="italic space-y-2"
               >
                 <p className="text-sm text-gold/80 font-medium uppercase tracking-wide">
-                  Personal Statement
+                  {t.about.statementLabel}
                 </p>
                 <p className="font-serif text-2xl text-forest leading-relaxed">
                   "{t.about.quote}"
@@ -248,10 +248,7 @@ export function About() {
               variants={floatingVariants}
               className="mt-10 pt-8 grid grid-cols-2 gap-6 border-t border-champagne/30"
             >
-              {[
-                { label: "Years Experience", value: "10+" },
-                { label: "Happy Clients", value: "500+" },
-              ].map((stat, index) => (
+              {t.about.stats.map((stat, index) => (
                 <motion.div
                   key={stat.label}
                   whileHover={{ y: -6 }}
