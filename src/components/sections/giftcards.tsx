@@ -86,7 +86,7 @@ export function GiftCards() {
                 {t.giftcards.cardLabel}
               </motion.p>
               <div className="w-full flex justify-center my-auto">
-                <img src="/logo.png" alt="LifeHarmony" className="w-[90%] h-auto max-h-40 object-contain drop-shadow-2xl" />
+                <img src="/logo.png" alt="LifeHarmony" className="w-[90%] h-auto max-h-24 sm:max-h-32 object-contain drop-shadow-2xl" />
               </div>
               <div className="pt-2 border-t border-champagne/20 w-full">
                 <p className="text-xs text-champagne/60">Pori · Isolinnankatu 22 B</p>
