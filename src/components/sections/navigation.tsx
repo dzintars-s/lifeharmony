@@ -66,13 +66,13 @@ export function Navigation() {
           <div className="flex items-center justify-between h-20">
             {/* Logo + Brand */}
             <a href="#home" className="flex-shrink-0 flex items-center gap-3 group">
-              {/* Logo SVG */}
+              {/* Logotip */}
               <div className="w-16 h-16 p-1 rounded-full group-hover:bg-white/5 transition-colors">
                 <img src="/lh_logotip.png" alt="LifeHarmony Logo" className="w-full h-full object-fill" />
               </div>
               {/* Brand Name with Gradient */}
               <div className="hidden sm:flex flex-col">
-                {/* Logo SVG */}
+                {/* Logo Text */}
                 <div className="w-full h-8">
                   <img src="/lh_logo.png" alt="LifeHarmony Logo" className="w-full h-full object-contain" />
                 </div>
@@ -147,65 +147,13 @@ export function Navigation() {
             />
             <div className="relative h-full flex flex-col">
               <div className="flex items-center justify-between p-6">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-forest/10 p-2">
-                    <svg
-                      viewBox="0 0 200 200"
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="w-full h-full"
-                    >
-                      <defs>
-                        <linearGradient id="mobileForestGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                          <stop offset="0%" stopColor="#2D4A3E" stopOpacity="1" />
-                          <stop offset="100%" stopColor="#1A3A2A" stopOpacity="1" />
-                        </linearGradient>
-                        <linearGradient id="mobileGoldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                          <stop offset="0%" stopColor="#D4C4A8" stopOpacity="1" />
-                          <stop offset="100%" stopColor="#B8A582" stopOpacity="1" />
-                        </linearGradient>
-                        <linearGradient id="mobileChampagneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                          <stop offset="0%" stopColor="#E8DFD0" stopOpacity="1" />
-                          <stop offset="100%" stopColor="#D4C4A8" stopOpacity="1" />
-                        </linearGradient>
-                        <radialGradient id="mobileGlowGradient" cx="50%" cy="50%" r="50%">
-                          <stop offset="0%" stopColor="#D4C4A8" stopOpacity="0.4" />
-                          <stop offset="100%" stopColor="#B8A582" stopOpacity="0" />
-                        </radialGradient>
-                      </defs>
-                      <circle cx="100" cy="100" r="98" fill="url(#mobileGlowGradient)" opacity="0.5" />
-                      <circle cx="100" cy="100" r="95" fill="none" stroke="url(#mobileGoldGradient)" strokeWidth="2.5" opacity="0.9" />
-                      <circle cx="100" cy="100" r="90" fill="url(#mobileForestGradient)" />
-                      <circle cx="100" cy="100" r="88" fill="none" stroke="url(#mobileChampagneGradient)" strokeWidth="1" opacity="0.4" />
-                      <circle cx="100" cy="100" r="80" fill="none" stroke="url(#mobileChampagneGradient)" strokeWidth="0.8" opacity="0.2" />
-                      <g id="petals">
-                        <path d="M 100 30 Q 85 50 82 70 Q 80 85 100 92 Q 120 85 118 70 Q 115 50 100 30" fill="url(#mobileChampagneGradient)" opacity="0.95" />
-                        <path d="M 100 30 Q 85 50 82 70 Q 80 85 100 92 Q 120 85 118 70 Q 115 50 100 30" fill="url(#mobileChampagneGradient)" opacity="0.9" transform="rotate(45 100 100)" />
-                        <path d="M 100 30 Q 85 50 82 70 Q 80 85 100 92 Q 120 85 118 70 Q 115 50 100 30" fill="url(#mobileChampagneGradient)" opacity="0.85" transform="rotate(90 100 100)" />
-                        <path d="M 100 30 Q 85 50 82 70 Q 80 85 100 92 Q 120 85 118 70 Q 115 50 100 30" fill="url(#mobileChampagneGradient)" opacity="0.8" transform="rotate(135 100 100)" />
-                        <path d="M 100 30 Q 85 50 82 70 Q 80 85 100 92 Q 120 85 118 70 Q 115 50 100 30" fill="url(#mobileChampagneGradient)" opacity="0.9" transform="rotate(180 100 100)" />
-                        <path d="M 100 30 Q 85 50 82 70 Q 80 85 100 92 Q 120 85 118 70 Q 115 50 100 30" fill="url(#mobileChampagneGradient)" opacity="0.85" transform="rotate(225 100 100)" />
-                        <path d="M 100 30 Q 85 50 82 70 Q 80 85 100 92 Q 120 85 118 70 Q 115 50 100 30" fill="url(#mobileChampagneGradient)" opacity="0.8" transform="rotate(270 100 100)" />
-                        <path d="M 100 30 Q 85 50 82 70 Q 80 85 100 92 Q 120 85 118 70 Q 115 50 100 30" fill="url(#mobileChampagneGradient)" opacity="0.9" transform="rotate(315 100 100)" />
-                      </g>
-                      <circle cx="100" cy="100" r="32" fill="rgba(26, 58, 42, 0.3)" />
-                      <g id="inner-petals">
-                        <path d="M 100 75 Q 92 82 90 90 Q 89 95 100 100 Q 111 95 110 90 Q 108 82 100 75" fill="url(#mobileGoldGradient)" opacity="0.95" />
-                        <path d="M 100 75 Q 92 82 90 90 Q 89 95 100 100 Q 111 95 110 90 Q 108 82 100 75" fill="url(#mobileGoldGradient)" opacity="0.9" transform="rotate(90 100 100)" />
-                        <path d="M 100 75 Q 92 82 90 90 Q 89 95 100 100 Q 111 95 110 90 Q 108 82 100 75" fill="url(#mobileGoldGradient)" opacity="0.85" transform="rotate(180 100 100)" />
-                        <path d="M 100 75 Q 92 82 90 90 Q 89 95 100 100 Q 111 95 110 90 Q 108 82 100 75" fill="url(#mobileGoldGradient)" opacity="0.9" transform="rotate(270 100 100)" />
-                      </g>
-                      <circle cx="100" cy="100" r="8" fill="url(#mobileGoldGradient)" opacity="0.95" />
-                      <circle cx="100" cy="100" r="6" fill="url(#mobileChampagneGradient)" opacity="0.8" />
-                      <ellipse cx="88" cy="88" rx="12" ry="12" fill="white" opacity="0.12" />
-                      <circle cx="100" cy="75" r="1.5" fill="url(#mobileGoldGradient)" opacity="0.6" />
-                      <circle cx="125" cy="100" r="1.5" fill="url(#mobileGoldGradient)" opacity="0.6" />
-                      <circle cx="100" cy="125" r="1.5" fill="url(#mobileGoldGradient)" opacity="0.6" />
-                      <circle cx="75" cy="100" r="1.5" fill="url(#mobileGoldGradient)" opacity="0.6" />
-                    </svg>
+                <div className="flex items-center gap-1">
+                  <div className="w-18 h-18 p-1">
+                    <img src="/lh_logotip.png" alt="LifeHarmony Logo" className="w-full h-full object-contain" />
                   </div>
-                  <span className="font-serif text-xl font-bold text-forest bg-gradient-to-r from-forest to-gold bg-clip-text text-transparent">
-                    LifeHarmony
-                  </span>
+                  <div className="w-full h-8">
+                    <img src="/lh_logo.png" alt="LifeHarmony Logo" className="w-full h-full object-contain" />
+                  </div>
                 </div>
                 <button
                   onClick={() => setIsMobileMenuOpen(false)}
