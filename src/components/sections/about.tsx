@@ -146,7 +146,7 @@ export function About() {
                 transition={{ duration: 0.8, delay: 0.3 }}
                 className="absolute bottom-6 left-6 bg-forest/95 backdrop-blur-sm rounded-full p-1 shadow-lg"
               >
-                <img src="/logo.svg" alt="LifeHarmony Logo" className="w-12 h-12 p-1 object-contain" />
+                <img src="/lh_logotip.png" alt="LifeHarmony Logo" className="w-12 h-12 object-contain" />
               </motion.div>
             </div>
 

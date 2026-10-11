@@ -65,7 +65,7 @@ export function Hero() {
           className="max-w-4xl"
         >
           {/* Main Title with Gradient */}
-          <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold mb-4 tracking-wide bg-gradient-to-r from-champagne via-gold to-champagne-light bg-clip-text text-transparent">
+          <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-extrabold mb-4 tracking-wide bg-gradient-to-r from-champagne via-gold to-champagne-light bg-clip-text text-transparent">
             {t.hero.title}
           </h1>
 

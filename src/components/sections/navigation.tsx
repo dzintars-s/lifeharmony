@@ -67,34 +67,21 @@ export function Navigation() {
             {/* Logo + Brand */}
             <a href="#home" className="flex-shrink-0 flex items-center gap-3 group">
               {/* Logo SVG */}
-              <div className="w-10 h-10 rounded-full bg-white/10 backdrop-blur-sm p-2 group-hover:bg-white/20 transition-colors">
-                <img src="/logo.svg" alt="LifeHarmony Logo" className="w-full h-full object-contain" />
+              <div className="w-16 h-16 p-1 rounded-full group-hover:bg-white/5 transition-colors">
+                <img src="/lh_logotip.png" alt="LifeHarmony Logo" className="w-full h-full object-fill" />
               </div>
               {/* Brand Name with Gradient */}
               <div className="hidden sm:flex flex-col">
-                <span
-                  className="font-serif text-xl font-bold tracking-wide bg-gradient-to-r from-forest to-gold bg-clip-text text-transparent"
-                  style={{
-                    backgroundImage: isScrolled
-                      ? "linear-gradient(to right, #2D4A3E, #B8A582)"
-                      : "linear-gradient(to right, #FDFCF9, #D4C4A8)",
-                  }}
-                >
-                  LifeHarmony
-                </span>
+                {/* Logo SVG */}
+                <div className="w-full h-8">
+                  <img src="/lh_logo.png" alt="LifeHarmony Logo" className="w-full h-full object-contain" />
+                </div>
               </div>
               {/* Mobile Brand Name */}
               <div className="sm:hidden flex flex-col">
-                <span
-                  className="font-serif text-lg font-bold tracking-wide bg-gradient-to-r from-forest to-gold bg-clip-text text-transparent"
-                  style={{
-                    backgroundImage: isScrolled
-                      ? "linear-gradient(to right, #2D4A3E, #B8A582)"
-                      : "linear-gradient(to right, #FDFCF9, #D4C4A8)",
-                  }}
-                >
-                  LifeHarmony
-                </span>
+                <div className="w-full h-8">
+                  <img src="/lh_logo.png" alt="LifeHarmony Logo" className="w-full h-full object-contain" />
+                </div>
               </div>
             </a>
 

@@ -77,7 +77,7 @@ export function GiftCards() {
             />
 
             {/* Card Content */}
-            <div className="relative h-full flex flex-col items-center justify-center p-8 text-center">
+            <div className="relative h-full flex flex-col items-center justify-center p-8 text-center gap-2">
               <motion.p
                 animate={{ opacity: [0.6, 1, 0.6] }}
                 transition={{ repeat: Infinity, duration: 3 }}
@@ -85,11 +85,10 @@ export function GiftCards() {
               >
                 {t.giftcards.cardLabel}
               </motion.p>
-              <h3 className="font-serif text-4xl mb-4 text-text-inverse">LifeHarmony</h3>
-              <p className="text-champagne-light text-sm">
-                {t.hero.tagline}
-              </p>
-              <div className="mt-6 pt-6 border-t border-champagne/20 w-full">
+              <div className="w-full flex justify-center my-auto">
+                <img src="/logo.png" alt="LifeHarmony" className="w-[90%] h-auto max-h-40 object-contain drop-shadow-2xl" />
+              </div>
+              <div className="pt-2 border-t border-champagne/20 w-full">
                 <p className="text-xs text-champagne/60">Pori · Isolinnankatu 22 B</p>
               </div>
             </div>
